@@ -30,7 +30,7 @@ for (int i = 1; i < myArray.Length; i++)
 difference = max - min;
 
 Console.WriteLine();
-Console.WriteLine(Math.Round(min, 2));
-Console.WriteLine(Math.Round(max, 2));
-Console.WriteLine(Math.Round(difference, 2));
+Console.WriteLine("\nMinimal element is " + Math.Round(min, 2));
+Console.WriteLine("Maximum element is " + Math.Round(max, 2));
+Console.WriteLine("\nDifference between maximum and minimal elements is " + Math.Round(difference, 2));
 
